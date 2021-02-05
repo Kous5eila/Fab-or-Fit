@@ -10,7 +10,7 @@
     tools:context=".DetailsActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/workoutTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -22,9 +22,10 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/workoutImg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:src="@drawable/weight" />
 
     <LinearLayout
@@ -52,10 +53,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1 "
-            android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
+            android:paddingLeft="150dp"
+            android:text="Complete set 1"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <CheckBox
@@ -64,10 +65,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1 "
-            android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
+            android:paddingLeft="150dp"
+            android:text="Complete set 2"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <CheckBox
@@ -76,10 +77,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1 "
-            android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
+            android:paddingLeft="150dp"
+            android:text="Complete set 3"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <CheckBox
@@ -100,10 +101,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1 "
-            android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
+            android:paddingLeft="150dp"
+            android:text="Complete set 5"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <CheckBox
@@ -112,10 +113,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1 "
-            android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
+            android:paddingLeft="150dp"
+            android:text="Complete set 6"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
 

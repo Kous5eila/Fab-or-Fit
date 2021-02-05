@@ -7,7 +7,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 
 class MainActivity : AppCompatActivity() {
 
-    val EXTRA_KEY = "Workout"
+    var EXTRA_KEY = "Workout"
     val EXERCICE_LIFTING = "Weight Lifting"
     val EXERCICE_YOGA = "Yoga"
     val EXERCICE_CARDIO = "Cardio"
@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
     private fun loadDetailsActivity(exerciceTitle:String){
         val intent = Intent(this,DetailsActivity::class.java)
         intent.putExtra(EXTRA_KEY,exerciceTitle)
+        startActivity(intent)
 
     }
 }

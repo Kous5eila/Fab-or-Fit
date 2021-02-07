@@ -89,10 +89,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1 "
-            android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
+            android:paddingLeft="150dp"
+            android:text="Complete set 4"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <CheckBox

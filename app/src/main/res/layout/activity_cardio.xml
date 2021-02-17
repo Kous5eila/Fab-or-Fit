@@ -5,7 +5,7 @@
     android:id="@+id/mainBg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2ca5f5"
+    android:background="#52ad56"
     android:orientation="vertical"
     tools:context=".DetailsActivity">
 
@@ -16,7 +16,7 @@
         android:layout_marginBottom="10dp"
         android:gravity="center"
         android:paddingTop="40dp"
-        android:text="Weight Lifting"
+        android:text="Cardio"
         android:textColor="#FFFFFF"
         android:textSize="35dp"
         android:textStyle="bold" />
@@ -26,7 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@drawable/weight" />
+        android:src="@drawable/weight"
+        app:srcCompat="@drawable/heart" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -54,8 +55,8 @@
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
             android:buttonTint="#FFFFFF"
-            android:paddingLeft="150dp"
-            android:text="Complete set 1"
+            android:paddingLeft="156dp"
+            android:text="Walk 2 miles"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -66,8 +67,8 @@
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
             android:buttonTint="#FFFFFF"
-            android:paddingLeft="150dp"
-            android:text="Complete set 2"
+            android:paddingLeft="165dp"
+            android:text="Run 5 miles"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -78,8 +79,8 @@
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
             android:buttonTint="#FFFFFF"
-            android:paddingLeft="150dp"
-            android:text="Complete set 3"
+            android:paddingLeft="155dp"
+            android:text="Spring 200m"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -90,8 +91,8 @@
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
             android:buttonTint="#FFFFFF"
-            android:paddingLeft="150dp"
-            android:text="Complete set 4"
+            android:paddingLeft="155dp"
+            android:text="Spring 400m"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -103,7 +104,7 @@
             android:layout_marginBottom="5dp"
             android:buttonTint="#FFFFFF"
             android:paddingLeft="150dp"
-            android:text="Complete set 5"
+            android:text="Bike 10 miles"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -115,7 +116,7 @@
             android:layout_marginBottom="5dp"
             android:buttonTint="#FFFFFF"
             android:paddingLeft="150dp"
-            android:text="Complete set 6"
+            android:text="Bike 15 miles"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -142,7 +143,7 @@
         android:foregroundGravity="bottom">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/nextBtn"
             android:layout_width="197dp"
             android:layout_height="41dp"
             app:layout_constraintBottom_toBottomOf="parent"
